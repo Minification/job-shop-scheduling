@@ -1,0 +1,7 @@
+- Initial solution to graph based plan
+- Parameter tuning of the algorithms via GA/ES
+- Data output during optimization:
+  1. Values found each update
+  2. New best values found
+  3. Best value at end
+  4. Average of best value in multiple runs

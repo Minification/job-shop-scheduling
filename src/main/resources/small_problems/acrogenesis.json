@@ -1,0 +1,70 @@
+{
+  "resources": [
+    {
+      "id": 0
+    },
+    {
+      "id": 1
+    },
+    {
+      "id": 2
+    }
+  ],
+  "jobs": [
+    {
+      "id": 0,
+      "operations": [
+        {
+          "index": 0,
+          "duration": 3,
+          "resource": 0
+        },
+        {
+          "index": 1,
+          "duration": 2,
+          "resource": 1
+        },
+        {
+          "index": 2,
+          "duration": 2,
+          "resource": 2
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "operations": [
+        {
+          "index": 0,
+          "duration": 2,
+          "resource": 0
+        },
+        {
+          "index": 1,
+          "duration": 1,
+          "resource": 2
+        },
+        {
+          "index": 2,
+          "duration": 4,
+          "resource": 1
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "operations": [
+        {
+          "index": 0,
+          "duration": 4,
+          "resource": 1
+        },
+        {
+          "index": 1,
+          "duration": 3,
+          "resource": 2
+        }
+      ]
+    }
+  ]
+}
